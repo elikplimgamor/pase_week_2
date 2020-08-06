@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form class="form" onclick = 'getInfo()'>
+        <input type="text" name="name">
+        <input type="button" value="value">
+        
+
+        
+
+    </form>
+
+    <script>
+        var name = document.form.name.value;
+        function getInfo(){
+            if (name ==null || name ==""){
+            alert('Please type something ')
+             return;
+        }
+        else{
+            alert('input validated')
+        }
+        
+            
+
+        }
+
+    </script>
+
+</body>
+</html>
